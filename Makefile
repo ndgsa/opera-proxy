@@ -19,6 +19,7 @@ all: bin-linux-amd64 bin-linux-386 bin-linux-arm bin-linux-arm64 \
 	bin-openbsd-amd64 bin-openbsd-386 bin-openbsd-arm bin-openbsd-arm64 \
 	bin-darwin-amd64 bin-darwin-arm64 \
 	bin-windows-amd64 bin-windows-386 bin-windows-arm64
+onlywin: bin-windows-amd64 bin-windows-386
 
 allplus: all \
 	bin-android-arm bin-android-arm64
